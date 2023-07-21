@@ -7,11 +7,20 @@ export const AddSlice=createSlice({
     reducers:{
         addnums: (state) => {
             state.num3 = state.num1 + state.num2 
+        },
+        subnums: (state)=>{
+            state.num3 = state.num1 - state.num2
+        },
+        divnums: (state)=>{
+            state.num3 = state.num1 / state.num2
+        },
+        multinums: (state)=>{
+            state.num3 = state.num1 * state.num2
         }
     }
 })
 
 
-export const {addnums} = AddSlice.actions
+export const {addnums,subnums,divnums,multinums} = AddSlice.actions
 
 export default AddSlice.reducer
