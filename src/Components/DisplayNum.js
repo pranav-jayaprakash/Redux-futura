@@ -24,7 +24,7 @@ function DisplayNum() {
         <button onClick={()=>dispatch(addnums())}>Add</button>
         <button onClick={()=>dispatch(subnums())}>Subtract</button>
         <button onClick={()=>dispatch(divnums())}>Divide</button>
-        <button onClick={()=>dispatch(multinums())}>Multiply</button>
+        <button onClick={()=>dispatch(multinums())}>Multiple</button>
     </div>
   )
 }
