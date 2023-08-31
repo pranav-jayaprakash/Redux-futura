@@ -6,6 +6,7 @@ const user=createSlice({
     reducers:{
         datainfo:(state,action)=>{
             state.info.push(action.payload)
+            console.log(action.payload,'Red')
         }
     }
 })
