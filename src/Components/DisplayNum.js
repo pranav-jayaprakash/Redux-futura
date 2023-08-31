@@ -4,6 +4,7 @@ import { printnums } from './PrintNumSlice'
 import {addnums,subnums,divnums,multinums} from './AddSlice'
 
 
+
 function DisplayNum() {
 
     const display = useSelector((state)=> state.print.num)
